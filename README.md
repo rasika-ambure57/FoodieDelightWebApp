@@ -2,7 +2,7 @@
 
 Food delivery app. It manages different Restaurants and their menus. 
 UI framework - React JS. Latest Version 18 used. 
-Material UI and DOM version 6.
+Material UI and React Router DOM version 6. 
 This webApp is responsive.
 
 Functionality for Restaurant Admin :
