@@ -68,7 +68,7 @@ const Menu = () => {
         </Box>
       </Layout>
       <AddMenuItem
-        title="Add Restaurant"
+        title="Add Menu Item"
         openPopup={openPopup}
         setOpenPopup={setopenPopup}
       ></AddMenuItem>
