@@ -4,7 +4,15 @@ Food delivery app. It manages different Restaurants and their menus.
 UI framework - React JS. Latest Version 18 used. 
 Material UI and React Router DOM version 6. 
 This webApp is responsive.
-Page Not Found Exception added
+Steps: 
+    -Architechture Created
+    - Material UI dependancites
+    - React Router DOM 
+    - Route elements created
+    - Header 
+    - Navigation added to diffrent pages
+    - Footer
+Page Not Found Exception added.
 
 Functionality for Restaurant Admin :
 - Add new Restaurant to platform 
