@@ -28,7 +28,7 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        {/* <img src={Logo} alt="logo" height={"70"} width="200" /> */}
+        <img src={Logo} alt="logo" height={"70"} width="200" />
       </Typography>
       <Divider />
       <ul className="mobile-navigation">
