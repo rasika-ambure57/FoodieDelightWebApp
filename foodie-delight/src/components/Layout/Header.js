@@ -38,9 +38,6 @@ const Header = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/addRestaurant"}>Add Restaurant</NavLink>
-        </li>
-        <li>
           <NavLink to={"/listRestaurants"}>List Of Restaurants</NavLink>
         </li>
         <li>
@@ -87,9 +84,6 @@ const Header = () => {
                   <NavLink activeClassName="active" to={"/"}>
                     Home
                   </NavLink>
-                </li>
-                <li>
-                  <NavLink to={"/addRestaurant"}>Add Restaurant</NavLink>
                 </li>
                 <li>
                   <NavLink to={"/listRestaurants"}>List Of Restaurants</NavLink>
