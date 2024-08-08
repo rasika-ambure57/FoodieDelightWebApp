@@ -39,7 +39,7 @@ const Footer = () => {
             },
           }}
         >
-          All Rights Reserved &copy; Techinfo YT
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!"
         </Typography>
       </Box>
     </>
