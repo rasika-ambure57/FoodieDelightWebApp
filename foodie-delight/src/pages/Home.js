@@ -11,7 +11,7 @@ const Home = () => {
           <h1>Food Website</h1>
           <p>Best Food In India</p>
           <Link to="/listRestaurants" className="button-link">
-            <button>Restaurant</button>
+            <button>Restaurants</button>
           </Link>
           <Link to="/menu" className="button-link">
             <button>Menu</button>
