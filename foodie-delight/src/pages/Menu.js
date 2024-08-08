@@ -9,10 +9,16 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
     <Layout>
+      <div className="headerContainer">
+        <Link to="/menu" className="button-link">
+          <button>Add Menu Item</button>
+        </Link>
+      </div>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
         {MenuList.map((menu) => (
           <Card sx={{ maxWidth: "390px", display: "flex", m: 2 }}>
