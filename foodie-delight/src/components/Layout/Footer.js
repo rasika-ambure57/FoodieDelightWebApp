@@ -24,7 +24,7 @@ const Footer = () => {
               transition: "all 400ms",
             },
           }}
-        >
+        > 
           {/* icons */}
           <InstagramIcon />
           <TwitterIcon />
