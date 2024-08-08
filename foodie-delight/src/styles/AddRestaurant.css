@@ -1,0 +1,9 @@
+.dialogWrapper {
+    padding: 16px; /* assuming theme.spacing(2) equals 16px */
+    position: absolute;
+    top: 40px; /* assuming theme.spacing(5) equals 40px */
+  }
+  
+  .dialogTitle {
+    padding-right: 0;
+  }
