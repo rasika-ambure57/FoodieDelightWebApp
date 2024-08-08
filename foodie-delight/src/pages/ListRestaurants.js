@@ -15,7 +15,7 @@ const Menu = () => {
   return (
     <Layout>
       <div className="headerContainer">
-        <Link to="/menu" className="button-link">
+        <Link to="/listRestaurants" className="button-link">
           <button>Add Restaurant</button>
         </Link>
       </div>
