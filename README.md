@@ -12,6 +12,10 @@ Steps:
     - Header 
     - Navigation added to diffrent pages
     - Footer
+    - Home Page Created
+    - About Page
+    - Contact Page
+    - Dummy data file created for use. 
 Page Not Found Exception added.
 
 Functionality for Restaurant Admin :
