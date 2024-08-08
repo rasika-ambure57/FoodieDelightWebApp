@@ -8,14 +8,25 @@ import {
   CardContent,
   CardMedia,
   Typography,
+  IconButton,
 } from "@mui/material";
 import AddRestaurant from "../pages/AddRestaurant";
 import { useState } from "react";
+import Edit from "@mui/icons-material/Edit";
+import Delete from "@mui/icons-material/Delete";
+
 const Menu = () => {
   const [openPopup, setopenPopup] = useState(false);
   function openPopupNow() {
     setopenPopup(true);
   }
+  const handleEdit = () => {
+    setopenPopup(true);
+  };
+
+  const handleDelete = () => {
+    window.alert("Restaurant deleted!");
+  };
   return (
     <>
       <Layout>
@@ -37,6 +48,19 @@ const Menu = () => {
                 <CardContent>
                   <Typography variant="h5" gutterBottom component={"div"}>
                     {menu.name}
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "8px", // Space between icons
+                      }}
+                    >
+                      <IconButton onClick={handleEdit}>
+                        <Edit />
+                      </IconButton>
+                      <IconButton onClick={handleDelete}>
+                        <Delete />
+                      </IconButton>
+                    </div>
                   </Typography>
                   <Typography variant="body2">
                     Location: {menu.location}

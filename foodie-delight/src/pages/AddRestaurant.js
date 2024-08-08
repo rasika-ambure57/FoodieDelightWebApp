@@ -73,6 +73,7 @@ export default function AddRestaurant(props) {
   };
 
   function closePopup() {
+    window.alert('Restaurant Not Added');
     setOpenPopup(false);
     resetForm();
   }
@@ -92,6 +93,7 @@ export default function AddRestaurant(props) {
     if (Object.values(newErrors).every((error) => !error)) {
       console.log("Form submitted", formData);
       setOpenPopup(false);
+      window.alert('Restaurant added successfully!');
       resetForm();
       // Submit form data
     } else {

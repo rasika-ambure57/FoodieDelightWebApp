@@ -4,7 +4,7 @@ import Layout from '../components/Layout/Layout'
 const PageNotFound = () => {
   return (
     <Layout>
-        <h1>Page Not Found exception</h1>
+        <h1>Page Not Found</h1>
     </Layout>
   )
 }
