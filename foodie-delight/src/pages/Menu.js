@@ -33,6 +33,7 @@ const Menu = () => {
                 <Typography variant="h5" gutterBottom component={"div"}>
                   {menu.name}
                 </Typography>
+                <Typography variant="body2">Price : {menu.price}</Typography>
                 <Typography variant="body2">{menu.description}</Typography>
               </CardContent>
             </CardActionArea>

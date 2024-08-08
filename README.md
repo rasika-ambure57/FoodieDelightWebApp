@@ -16,6 +16,7 @@ Steps:
     - About Page
     - Contact Page
     - Dummy data file created for use. 
+    - Dummy restaurant data and menu displyed 
 Page Not Found Exception added.
 
 Functionality for Restaurant Admin :
