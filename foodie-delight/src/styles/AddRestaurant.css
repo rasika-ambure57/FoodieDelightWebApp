@@ -1,0 +1,76 @@
+.dialogWrapper {
+  padding: 16px; /* assuming theme.spacing(2) equals 16px */
+  position: absolute;
+  top: 40px; /* assuming theme.spacing(5) equals 40px */
+}
+
+.dialogTitle {
+  padding-right: 0;
+}
+
+.dialogWrapper {
+  padding: 16px; /* assuming theme.spacing(2) equals 16px */
+  position: absolute;
+  top: 40px; /* assuming theme.spacing(5) equals 40px */
+}
+
+.dialogTitle {
+  padding-right: 0;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Add space between inputs */
+}
+
+.inputWrapper label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.inputWrapper input,
+.inputWrapper textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputWrapper textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.scrollableContent {
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 70vh; /* Allow content to be scrollable within this height */
+}
+
+.dialogWrapper button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 25px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.dialogWrapper button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.dialogWrapper .button-link {
+  display: block;
+  margin-bottom: 10px; /* Optional: add space between buttons */
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  width: 100%; /* Make sure the div takes full width for proper centering */
+}
